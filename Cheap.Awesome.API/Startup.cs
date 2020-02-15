@@ -1,4 +1,5 @@
-using Cheap.Awesome.API.Services;
+using Cheap.Awesome.Infrastructure.Interfaces;
+using Cheap.Awesome.Infrastructure.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cheap.Awesome.API.Models;
-using Cheap.Awesome.API.Services;
+using System.ComponentModel.DataAnnotations;
+using Cheap.Awesome.BusinessLayer.Models;
 using Cheap.Awesome.API.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using RestSharp;
+using Cheap.Awesome.Infrastructure.Interfaces;
 
 namespace Cheap.Awesome.API.Controllers
 {
@@ -23,7 +24,7 @@ namespace Cheap.Awesome.API.Controllers
         }
 
         [HttpGet("{destinationId}/{nights}")]
-        public IEnumerable<Result> GetResult(int destinationId, int nights)
+        public IEnumerable<Result> GetResult([Range(1, int.MaxValue)] int destinationId, [Range(1, int.MaxValue)] int nights)
         {
             object resultCall = null;
             _logger.LogInformation($"Call GetResult from HotelController with destinationId={destinationId} and nights={nights}");

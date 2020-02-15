@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Cheap.Awesome.API.Models;
-using Newtonsoft.Json;
+﻿using System.Collections.Generic;
+using Cheap.Awesome.BusinessLayer.Models;
+using Cheap.Awesome.Infrastructure.Interfaces;
 
-namespace Cheap.Awesome.API.Services
+namespace Cheap.Awesome.Infrastructure.Services
 {
     public class HotelCalculationService : IHotelCalculationService
     {
