@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.API\\Cheap.Awesome.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.API\\Cheap.Awesome.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.API\\Cheap.Awesome.API.csproj",
+        "projectName": "Cheap.Awesome.API",
+        "projectPath": "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.API\\Cheap.Awesome.API.csproj",
+        "packagesPath": "C:\\Users\\ionel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ionel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Rest.ClientRuntime": {
+              "target": "Package",
+              "version": "[2.3.21, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
