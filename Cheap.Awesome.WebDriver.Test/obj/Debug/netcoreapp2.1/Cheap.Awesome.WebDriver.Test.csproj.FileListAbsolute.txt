@@ -10,3 +10,4 @@ C:\Users\ionel\source\repos\Cheap.Awesome.API - Stefanuca Ionel\Cheap.Awesome.We
 C:\Users\ionel\source\repos\Cheap.Awesome.API - Stefanuca Ionel\Cheap.Awesome.WebDriver.Test\bin\Debug\netcoreapp2.1\Cheap.Awesome.WebDriver.Test.pdb
 C:\Users\ionel\source\repos\Cheap.Awesome.API - Stefanuca Ionel\Cheap.Awesome.WebDriver.Test\obj\Debug\netcoreapp2.1\Cheap.Awesome.WebDriver.Test.dll
 C:\Users\ionel\source\repos\Cheap.Awesome.API - Stefanuca Ionel\Cheap.Awesome.WebDriver.Test\obj\Debug\netcoreapp2.1\Cheap.Awesome.WebDriver.Test.pdb
+C:\Users\ionel\source\repos\Cheap.Awesome.API - Stefanuca Ionel\Cheap.Awesome.WebDriver.Test\obj\Debug\netcoreapp2.1\Cheap.Awesome.WebDriver.Test.csprojAssemblyReference.cache
