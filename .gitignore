@@ -17,3 +17,6 @@ Cheap.Awesome.WebDriver.Test/obj/Debug/netcoreapp2.1/Cheap.Awesome.WebDriver.Tes
 Cheap.Awesome.WebDriver.Test/obj/Cheap.Awesome.WebDriver.Test.csproj.nuget.dgspec.json
 Cheap.Awesome.WebDriver.Test/obj/Cheap.Awesome.WebDriver.Test.csproj.nuget.cache
 Cheap.Awesome.WebDriver.Test/bin/Debug/netcoreapp2.1/chromedriver.exe
+*.dll
+Cheap.Awesome.WebDriver.Test/obj/Debug/netcoreapp2.1/Cheap.Awesome.WebDriver.Test.pdb
+Cheap.Awesome.WebDriver.Test/obj/Debug/netcoreapp2.1/Cheap.Awesome.WebDriver.Test.dll
