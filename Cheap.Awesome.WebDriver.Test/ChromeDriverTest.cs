@@ -32,8 +32,6 @@ namespace Cheap.Awesome.WebDriver.Test
             Assert.AreEqual("Swagger UI", _driver.Title);
         }
 
-
-
         [TestCleanup]
         public void EdgeDriverCleanup()
         {
