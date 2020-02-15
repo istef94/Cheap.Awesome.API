@@ -22,7 +22,6 @@ namespace Cheap.Awesome.API.Controllers
             _hotelCalculationService = hotelCalculationService;
         }
 
-        // call http://localhost:52729/hotel/279/23
         [HttpGet("{destinationId}/{nights}")]
         public IEnumerable<Result> GetResult(int destinationId, int nights)
         {
@@ -36,6 +35,10 @@ namespace Cheap.Awesome.API.Controllers
                 var request = new RestRequest(Method.GET);
                 IRestResponse response = client.Execute(request);
 
+                // at first call will save the result with all calculation in cache
+                // the cache key will in fallowing format destinationId{integer}-nights{integer} 
+                // at next calls if we alredy have the result in cache, then will take result from cache 
+                // and will not call again external api from https://webbedsdevtest.azurewebsites.net  
                 if (!MemoryCacher.TryGetValue($"destinationId{destinationId}-nights{nights}", out resultCall))
                 {
                     var results = JsonConvert.DeserializeObject<List<Result>>(response.Content);

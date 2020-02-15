@@ -19,6 +19,12 @@ namespace Cheap.Awesome.WebDriver.Test
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
         }
 
+        /// <summary>
+        /// Will check if file from http://localhost:52729/swagger/v1/swagger.json is accessible
+        /// In same cases when swagger in not configured correctly the file isn't present 
+        /// and swagger UI dont't work
+        /// </summary>
+
         [TestMethod]
         public void CheckSwaggerEndpoint()
         {
@@ -35,6 +41,11 @@ namespace Cheap.Awesome.WebDriver.Test
             Assert.AreEqual("Swagger UI", _driver.Title);
         }
 
+
+        /// <summary>
+        /// This method will open chrome browser and will test swagger UI by compliting automatically 
+        /// destinationId and number of nights.
+        /// </summary>
         [TestMethod]
         [Obsolete]
         public void CheckIfCanCallAPIbySwagger()
