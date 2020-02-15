@@ -1,10 +1,5 @@
 
-.vs/Cheap.Awesome.API/config/applicationhost.config
-.vs/Cheap.Awesome.API/v16/.suo
-.vs/Cheap.Awesome.API/v16/Server/sqlite3/storage.ide-wal
-.vs/Cheap.Awesome.API/v16/Server/sqlite3/storage.ide-shm
-.vs/Cheap.Awesome.API/v16/Server/sqlite3/storage.ide
-.vs/Cheap.Awesome.API/v16/Server/sqlite3/db.lock
+
 Cheap.Awesome.WebDriver.Test/obj/project.assets.json
 Cheap.Awesome.WebDriver.Test/obj/Debug/netcoreapp2.1/Cheap.Awesome.WebDriver.Test.csprojAssemblyReference.cache
 Cheap.Awesome.WebDriver.Test/obj/Debug/netcoreapp2.1/Cheap.Awesome.WebDriver.Test.assets.cache
@@ -129,3 +124,9 @@ Cheap.Awesome.Infrastructure/obj/Debug/netcoreapp3.1/Cheap.Awesome.Infrastructur
 Cheap.Awesome.Infrastructure/obj/Debug/netcoreapp3.1/Cheap.Awesome.Infrastructure.csproj.FileListAbsolute.txt
 Cheap.Awesome.Infrastructure/obj/Debug/netcoreapp3.1/Cheap.Awesome.Infrastructure.csprojAssemblyReference.cache
 Cheap.Awesome.Infrastructure/obj/Cheap.Awesome.Infrastructure.csproj.nuget.cache
+.vs/Cheap.Awesome.API/v16/TestStore/0/testlog.manifest
+.vs/Cheap.Awesome.API/v16/TestStore/0/000-0000.testlog
+.vs/Cheap.Awesome.API/DesignTimeBuild/.dtbcache
+.vs/Cheap.Awesome.API/v16/TestStore/0/testlog.manifest
+.vs/Cheap.Awesome.API/v16/TestStore/0/000-0000.testlog
+.vs/Cheap.Awesome.API/DesignTimeBuild/.dtbcache
