@@ -5794,11 +5794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.WebDriver.Test\\Cheap.Awesome.WebDriver.Test.csproj",
+      "projectUniqueName": "C:\\Users\\ionel\\Documents\\GitHub\\Cheap.Awesome.API\\Cheap.Awesome.WebDriver.Test\\Cheap.Awesome.WebDriver.Test.csproj",
       "projectName": "Cheap.Awesome.WebDriver.Test",
-      "projectPath": "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.WebDriver.Test\\Cheap.Awesome.WebDriver.Test.csproj",
+      "projectPath": "C:\\Users\\ionel\\Documents\\GitHub\\Cheap.Awesome.API\\Cheap.Awesome.WebDriver.Test\\Cheap.Awesome.WebDriver.Test.csproj",
       "packagesPath": "C:\\Users\\ionel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ionel\\source\\repos\\Cheap.Awesome.API - Stefanuca Ionel\\Cheap.Awesome.WebDriver.Test\\obj\\",
+      "outputPath": "C:\\Users\\ionel\\Documents\\GitHub\\Cheap.Awesome.API\\Cheap.Awesome.WebDriver.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
